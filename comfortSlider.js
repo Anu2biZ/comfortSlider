@@ -32,7 +32,7 @@
         
         $(this).css('margin', '0 auto');
         $(this).children('div').css('margin-top', '50px').css('cursor', 'pointer', 'transition', '0.3s');
-        this.after("<div class='modal_overlay'>  <div class='modalItem'>    <div class='modalHeader g-center'><span class='title'></span><i class='fa fa-times-circle modal_close' aria-hidden='true'></i></div> <img src='img/meta/meta.jpg' alt='' class='g-img-responsive modal_image'>                        <div class='modalFooter'>                            <i class='fa fa-2x fa-arrow-left modal_left' aria-hidden='true'></i>           <i class='fa fa-2x fa-arrow-right modal_right' aria-hidden='true'></i>      </div> </div>  </div>");
+        this.after("<div class='modal_overlay'>  <div class='modalItem'>    <div class='modalHeader g-center'><span class='title'> &nbsp </span><i class='fa fa-times-circle modal_close' aria-hidden='true'></i></div> <img src='img/meta/meta.jpg' alt='' class='g-img-responsive modal_image'>                        <div class='modalFooter'>                            <i class='fa fa-2x fa-arrow-left modal_left' aria-hidden='true'></i>           <i class='fa fa-2x fa-arrow-right modal_right' aria-hidden='true'></i>      </div> </div>  </div>");
                    
         $(galleryChildren).each(function (index, item) {
             var new_id = index + 1;
